@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 1</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="nivel03.css">
+</head>
+<body>
+    <header>
+        <h1>Juego Óscar Llamas Parra</h1>
+    </header>
+    <main>
+        <div id="container">
+            <img src="../img/fondo3.jpg" alt="">
+            <p id="pista">++-</p>
+            <form action="">
+                <input type="text" id="entrada" maxlength="3">
+                <br>
+                <input type="submit" id="boton" value="Nivel 4">
+            </form>
+        </div>
+    </main>
+    <footer>
+        Creado por <a href="https://github.com/OscarLlaPar/JUEGO_OSCAR_LLAMAS_PARRA">Óscar Llamas Parra</a>
+    </footer>
+    <script>
+        let entrada=document.getElementById("entrada");
+        let boton=document.getElementById("boton");
+        entrada.addEventListener("keyup", function(event){
+            if(entrada.value==="400"){
+                boton.style.display="block";
+            }
+        })
+    </script>
+</body>
+</html>

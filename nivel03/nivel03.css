@@ -1,0 +1,33 @@
+#container{
+    position:relative;
+}
+#pista{
+    font-size:80px;
+    position:absolute;
+    left:37%;
+    top:0%;
+}
+form{
+    position:absolute;
+    left:33%;
+    top:50%;
+    text-align: center;
+}
+#entrada{
+    border:none;
+    background:transparent;
+    border-bottom:solid blue 1px;
+    color: white;
+    text-align: center;
+    font-size:56px;
+    width:200px;
+    outline:none;
+}
+#boton{
+ margin:10px;
+ font-size:40px;
+ background:transparent;
+ border:none;
+ color:white;
+ display:none;
+}
