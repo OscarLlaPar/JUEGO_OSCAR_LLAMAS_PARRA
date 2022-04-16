@@ -42,6 +42,11 @@ footer a{
 footer a:hover{
     color:rgb(250, 216, 165);
 }
+@media screen and (min-width:901px){
+    img{
+        width:850px;
+    }
+}
 @media screen and (max-width:900px){
     img{
         width:600px;

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivel 4</title>
+    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="nivel04.css">
+</head>
+<body>
+    <header>
+        <h1>Juego Óscar Llamas Parra</h1>
+    </header>
+    <main>
+        <div id="container">
+            <img src="../img/fondo4.jpg">
+            <div id="nivel">
+                <a href="../nivel05/nivel05.html" id="enlace">Nivel 5</a>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        Creado por <a href="https://github.com/OscarLlaPar/JUEGO_OSCAR_LLAMAS_PARRA">Óscar Llamas Parra</a>
+    </footer>
+    <script>
+        let nivel=document.getElementById("nivel");
+        let enlace=document.getElementById("enlace");
+        nivel.addEventListener("mouseover",function(event){
+            enlace.style.visibility="visible";
+        })
+        nivel.addEventListener("mouseout",function(event){
+            enlace.style.visibility="hidden";
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#container{
+    position:relative;
+}
+#nivel{
+    position:absolute;
+    top:72%;
+    left:75%;
+}
+#enlace{
+    visibility: hidden;
+}
